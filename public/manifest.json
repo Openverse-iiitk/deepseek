@@ -1,0 +1,54 @@
+{
+  "name": "Vydhya AI - IIITK Campus Assistant",
+  "short_name": "Vydhya AI",
+  "description": "IIITK's zero-latency, privacy-first AI assistant built by students, for students.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A1120",
+  "theme_color": "#06B6D4",
+  "orientation": "portrait-primary",
+  "categories": ["education", "productivity", "utilities"],
+  "lang": "en-US",
+  "dir": "ltr",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/assets/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/assets/logo.svg",
+      "sizes": "1280x720",
+      "type": "image/svg+xml",
+      "platform": "wide",
+      "label": "Vydhya AI Homepage"
+    },
+    {
+      "src": "/assets/logo.svg",
+      "sizes": "750x1334",
+      "type": "image/svg+xml",
+      "platform": "narrow",
+      "label": "Vydhya AI Chat Interface"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Start Chat",
+      "short_name": "Chat",
+      "description": "Start a new conversation with Vydhya AI",
+      "url": "/chat",
+      "icons": [
+        {
+          "src": "/assets/logo.svg",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false
+}
